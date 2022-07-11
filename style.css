@@ -1,0 +1,76 @@
+container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    border:0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(10, 92, 164);
+    padding: 8px 16px;
+
+}
+
+.logo {
+    font-size: 40px;
+
+}
+
+ul.links {
+    list-style-type: none;
+    display: flex;
+    gap:16px;
+}
+
+.hero-main {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 36px;
+    background-color: aliceblue;
+}
+
+.title1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 24px;
+    gap: 16px;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.title2 {
+    text-align: center;
+    font-size: 36px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.blocks {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.quote {
+    background-color: cadetblue;
+    margin:16px;
+    padding:24px;
+
+}
+
+.person {
+    text-align: right;
+}
